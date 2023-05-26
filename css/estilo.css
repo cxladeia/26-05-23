@@ -1,0 +1,260 @@
+/*--------------- CONFIG - MARGEM DAS SEÇÕES -------------------*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+/*--------------- CABEÇALHO -------------------*/
+  header {
+    background-color: #000000;
+    color: #fff;
+    padding: 3px;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo img{
+    width: 80px;
+    margin-left: 20px ;
+  }
+  
+  .botoes {
+    list-style: none;
+    display: flex;
+  }
+
+  .botoes img{
+    margin-right: 20px;
+    width: 21px;
+  }
+  
+  .botoes a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  img.git:hover{
+    background-color: rgb(85, 150, 148);
+    transition: 0.5s;
+    border-radius: 30px;
+    cursor: pointer;
+    transform: scale(1.09);
+  }
+
+  img.link:hover{
+    background-color: rgb(85, 150, 148);
+    transition: 0.5s;
+    border-radius: 5px;
+    cursor: pointer;
+    transform: scale(1.09);
+  }
+
+  img.insta:hover{
+    background-color: rgb(85, 150, 148);
+    transition: 0.5s;
+    border-radius: 5px;
+    cursor: pointer;
+    transform: scale(1.09);
+  }
+
+  img.gmail:hover{
+    background-color: rgb(85, 150, 148);
+    transition: 0.5s;
+    border-radius: 5px;
+    cursor: pointer;
+    transform: scale(1.09);
+  }
+
+  img.face:hover{
+    background-color: rgb(85, 150, 148);
+    transition: 0.5s;
+    border-radius: 5px;
+    cursor: pointer;
+    transform: scale(1.09);
+  }
+  
+  /*--------------- INICIO -------------------*/
+  .inicio {
+    background-image: url('img/1.png');
+    background-size: cover;
+    background-position: center;
+    height: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .inicio p {
+    text-align: center;
+    color: #ffffff;
+    font-size: 24px;
+    margin-top: 300px;
+    font-style: italic;
+    background-color: rgb(66, 61, 33);
+    width: 600px;
+    height: 35px;
+    border-radius: 30px;
+    font-variant: small-caps;
+  }
+  
+  /*--------------- PRIMEIRA PARTE - SOBRE MIM -------------------*/
+
+  .primeiro{
+    background-size: cover;
+    background-position: center;
+    height: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .primeiro p {
+    color: white;
+    font-size: 25px;
+    width: 33%;
+    text-align: center;
+    margin: 10px;
+    font-style: oblique;
+  }
+
+  .primeiro img.bebesobremim{
+    height: 35%;
+  }
+
+  .primeiro img.joerobert{
+    height: 60%;
+  }
+
+.primeiro img:hover{
+  transition: 0.7s;
+  cursor: pointer;
+  transform: scale(1.02);
+}
+
+/*--------------- SEGUNDA PARTE - SONHO -------------------*/
+.segundo{
+  background-size: cover;
+  background-position: center;
+  height: 1000px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.segundo p {
+  color: white;
+  font-size: 25px;
+  width: 33%;
+  text-align: center;
+  margin: 10px;
+  font-style: oblique;
+}
+
+.segundo img:hover{
+  transition: 0.7s;
+  cursor: pointer;
+  transform: scale(1.02);
+}
+
+/*--------------- TERCEIRA PARTE - PROJETOS -------------------*/
+.terceiro{
+  background-size: cover;
+  background-position: center;
+  height: 1000px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.projetos{
+  text-align: center;
+}
+
+.terceiro img{
+  width: 200px;
+  margin: 10px;
+  text-align: center;
+  transition: 0.7s;
+}
+
+.terceiro img:hover{
+  border-radius: 4px;
+  box-shadow: rgba(255, 255, 255, 0.381) 5px 5px 30px 10px;
+  cursor: pointer;
+  transition-property: transform, box-shadow;
+  cursor: pointer;
+  transform: scale(1.02);
+}
+
+
+
+.terceiro tr.outros img{
+  width: 300px;
+}
+
+.terceiro tr.sites img{
+  width: 400px;
+  text-align: center;
+}
+
+/*------------------- QUARTA PARTE - GALERIA-------------------*/
+.quarta{
+  background-size: cover;
+  background-position: center;
+  height: 1000px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.foto img{
+    height: 350px;
+    width: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+    text-align: center;
+  }
+
+.foto{
+  text-align: center;
+}
+
+.foto img:hover{
+  cursor: pointer;
+  transform: scale(1.02);
+}
+
+/*------------------- RODAPÉ -------------------*/
+footer {
+  background-color: #000000;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+footer .rodape {
+  align-items: center;
+}
+
+.rodape img{
+  margin-right: 20px;
+  width: 21px;
+}
+
+.rodape a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer p{
+  font-style: italic;
+  font-variant: small-caps;
+}
+
+
